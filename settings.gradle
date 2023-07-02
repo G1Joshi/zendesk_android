@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "zendesk"
+include ':app'
